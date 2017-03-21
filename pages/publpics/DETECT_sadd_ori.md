@@ -1,0 +1,19 @@
+---
+layout: frontpage
+title: Critical points and associated lines detection
+---
+
+<div class="navbar">
+  <div class="navbar-inner">
+      <ul class="nav">
+        <li><a href="../../index.html">back</a></li>
+        <li><a href="iplotCorr.html">prev</a></li>
+        <li><a href="samplemixups_fig7.html">next</a></li>
+      </ul>
+  </div>
+</div>
+
+
+![Critical points and associated lines detection](../../assets/pics/DETECT_sadd_ori.png)
+
+**Figure 2**.
