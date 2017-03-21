@@ -6,9 +6,9 @@ title: Experimental device diagram
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
-        <li><a href="../../index.html">back</a></li>
-          <li><a href="iplotCorr.html">prev</a></li>
-          <li><a href="samplemixups_fig7.html">next</a></li>
+        <li><a href="../../index.html#flow-around-obstacles">back</a></li>
+          <li><a href="Simulations.html">prev</a></li>
+          <li><a href="vortex_superieur.html">next</a></li>
       </ul>
   </div>
 </div>

@@ -6,8 +6,8 @@ description: Gaby Launay is a teaching assistant (TA) in fluid mechanics at the 
 
 Gaby Launay is a Teaching assistant in the [LMFA](http://lmfa.ec-lyon.fr) at the university of Lyon (france).
 
+[Curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/gaby_launay_cv.pdf)
 <!-- TODO : Add a photo -->
-
 <!-- TODO : Add a short description -->
 
 

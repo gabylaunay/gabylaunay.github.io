@@ -6,9 +6,9 @@ title: Velocity field in a vertical cut of a flow around an emerging obstacle, s
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
-        <li><a href="../../index.html">back</a></li>
-          <li><a href="iplotCorr.html">prev</a></li>
-          <li><a href="samplemixups_fig7.html">next</a></li>
+        <li><a href="../../index.html#flow-around-obstacles">back</a></li>
+          <li><a href="schema_manip.html">prev</a></li>
+          <li><a href="attracteur_2_5p.html">next</a></li>
       </ul>
   </div>
 </div>

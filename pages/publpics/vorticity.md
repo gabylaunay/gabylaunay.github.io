@@ -6,9 +6,9 @@ title: Vorticity field obtained by PIV measurements.
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
-        <li><a href="../../index.html">back</a></li>
-          <li><a href="iplotCorr.html">prev</a></li>
-          <li><a href="samplemixups_fig7.html">next</a></li>
+        <li><a href="../../index.html#PIV/PLIF">back</a></li>
+          <li><a href="poinc_attract_2_3p_pos1_u.html">prev</a></li>
+          <li><a href="test_torrentiel.html">next</a></li>
       </ul>
   </div>
 </div>

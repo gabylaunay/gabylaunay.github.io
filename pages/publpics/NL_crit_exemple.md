@@ -6,9 +6,9 @@ title: Illustration of the use of non-local criterion for vortex detection
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
-        <li><a href="../../index.html">back</a></li>
-          <li><a href="iplotCorr.html">prev</a></li>
-          <li><a href="samplemixups_fig7.html">next</a></li>
+        <li><a href="../../index.html#flow-topology">back</a></li>
+          <li><a href="DETECT_sadd_ori.html">prev</a></li>
+          <li><a href="Simulations.html">next</a></li>
       </ul>
   </div>
 </div>

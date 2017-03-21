@@ -23,9 +23,8 @@ Technician from EDF company :
 Co-directed by Pr. Florence Raynal.
 
 #### 2014-2015 : Master degree internship
-**Super-critical flow around emerging obstacles.**
-([Associated publication](http://ascelibrary.org/doi/10.1061/%28ASCE%29HY.1943-7900.0001291))
-
+**Super-critical flow around emerging obstacles.** <br/>
+[Associated publication](publications#POF) <br/>
 Co-directed by Pr. Nicolas Rivière.
 
 #### 2013-2014 : TIPE (supervised personal work of initiative)
