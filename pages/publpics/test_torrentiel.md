@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Illustration of super-critical flow around an obstacle
+title: PIV measureemnt of super-critical flow around an obstacles
 ---
 
 <div class="navbar">
@@ -14,6 +14,7 @@ title: Illustration of super-critical flow around an obstacle
 </div>
 
 
-![Complex regime illustration](../../assets/pics/test_torrentiel.png)
+![PIV measurement of supercritical free-surface flow](../../assets/pics/test_torrentiel.png)
 
-**Figure 5**.
+**Figure 2**.
+PIV measureemnt of super-critical flow around an obstacles.

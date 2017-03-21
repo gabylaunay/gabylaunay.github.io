@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Experimental device diagram
+title: Velocity field in a vertical cut of a flow around an emerging obstacle, showing a unattended superior vortex
 ---
 
 <div class="navbar">
@@ -14,7 +14,7 @@ title: Experimental device diagram
 </div>
 
 
-![Experimental device schematic view](../../assets/pics/Schema_manip.png)
+![Superior HSV](../../assets/pics/vortex_superieur.png)
 
-**Figure 11**.
-Experimental device diagram used to create ans measure HSV around long obstacles emerging from a laminar free-surface.
+**Figure 12**.
+Velocity field in a vertical cut of a flow around an emerging obstacle, showing a unattended superior vortex

@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="299"
-   inkscape:export-xdpi="299"
-   inkscape:export-filename="DETECT_sadd_ori.png"
+   inkscape:export-ydpi="100"
+   inkscape:export-xdpi="100"
+   inkscape:export-filename="DETECT_sadd_ori_small.png"
    sodipodi:docname="DETECT_sadd_ori.svg"
    inkscape:version="0.92.1 r"
    version="1.1"
@@ -27,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.66733203"
-     inkscape:cx="338.40673"
+     inkscape:cx="79.914717"
      inkscape:cy="216.17912"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -36,9 +36,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1362"
+     inkscape:window-width="679"
      inkscape:window-height="729"
-     inkscape:window-x="0"
+     inkscape:window-x="683"
      inkscape:window-y="18"
      inkscape:window-maximized="0"
      inkscape:snap-object-midpoints="true" />
@@ -62,12 +62,13 @@
      inkscape:groupmode="layer"
      inkscape:label="Calque 1">
     <image
-       width="853.33331"
-       height="466.13333"
-       xlink:href="/home/glaunay/DETECT_sadd_ori_raw.png"
-       id="image3004"
+       sodipodi:absref="/home/glaunay/dev/perso-site/assets/pics/DETECT_sadd_ori_raw.png"
+       xlink:href="DETECT_sadd_ori_raw.png"
+       y="139.19405"
        x="-98.77623"
-       y="139.19405" />
+       id="image3004"
+       height="466.13333"
+       width="853.33331" />
     <path
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"

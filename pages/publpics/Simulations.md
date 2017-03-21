@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Experimental device diagram
+title: Result of Horseshoe vortex vortices dynamics simulations.
 ---
 
 <div class="navbar">
@@ -14,7 +14,8 @@ title: Experimental device diagram
 </div>
 
 
-![Experimental device schematic view](../../assets/pics/Schema_manip.png)
+![Vortex dynamics simulation](../../assets/pics/Simulations.png)
 
-**Figure 11**.
-Experimental device diagram used to create ans measure HSV around long obstacles emerging from a laminar free-surface.
+**Figure 10**.
+Result of Horseshoe vortex vortices dynamics simulations.
+Some horseshoe vortex regimes are successfully modelized.

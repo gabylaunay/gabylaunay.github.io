@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Experimental device diagram
+title: Illustration of the use of non-local criterion for vortex detection
 ---
 
 <div class="navbar">
@@ -14,7 +14,7 @@ title: Experimental device diagram
 </div>
 
 
-![Experimental device schematic view](../../assets/pics/Schema_manip.png)
+![Non-local vortex detection](../../assets/pics/NL_crit_exemple.png)
 
-**Figure 11**.
-Experimental device diagram used to create ans measure HSV around long obstacles emerging from a laminar free-surface.
+**Figure 9**.
+title: Illustration of the use of non-local criterion for vortex detection

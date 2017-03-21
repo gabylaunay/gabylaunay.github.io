@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Experimental device diagram
+title: Vortex tracking in a shear layer using POD and Gamma_1 criterion
 ---
 
 <div class="navbar">
@@ -14,7 +14,7 @@ title: Experimental device diagram
 </div>
 
 
-![Experimental device schematic view](../../assets/pics/Schema_manip.png)
+![Vortex tracking](../../assets/pics/POFM_suivi_vortex.png)
 
-**Figure 11**.
-Experimental device diagram used to create ans measure HSV around long obstacles emerging from a laminar free-surface.
+**Figure 4**.
+Vortex tracking in a shear layer using POD and gamma_1 criterion.

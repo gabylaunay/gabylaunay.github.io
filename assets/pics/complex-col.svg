@@ -17,10 +17,10 @@
    width="1059.8063"
    height="742.32281"
    viewBox="0 0 993.56839 695.92762"
-   sodipodi:docname="Complex-col.svg"
-   inkscape:export-filename="Complex-col.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300"><metadata
+   sodipodi:docname="complex-col.svg"
+   inkscape:export-filename="complex-col_small.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
@@ -1259,7 +1259,7 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1362"
+     inkscape:window-width="679"
      inkscape:window-height="729"
      id="namedview4"
      showgrid="false"
@@ -1267,9 +1267,9 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="1.9000914"
-     inkscape:cx="946.58583"
+     inkscape:cx="870.53686"
      inkscape:cy="582.88925"
-     inkscape:window-x="0"
+     inkscape:window-x="683"
      inkscape:window-y="18"
      inkscape:window-maximized="0"
      inkscape:current-layer="g5059"
@@ -1280,7 +1280,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:snap-midpoints="true" /><g
+     inkscape:snap-midpoints="true"
+     inkscape:snap-center="true" /><g
      id="g10"
      inkscape:groupmode="layer"
      inkscape:label="TYPO-Complex-col"

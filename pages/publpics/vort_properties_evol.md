@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Experimental device diagram
+title: Evolution of the circulation of a tracked vortex along its lide cycle
 ---
 
 <div class="navbar">
@@ -14,7 +14,7 @@ title: Experimental device diagram
 </div>
 
 
-![Experimental device schematic view](../../assets/pics/Schema_manip.png)
+![Vortex circulation evolution](../../assets/pics/vort_properties_evol.png)
 
-**Figure 11**.
-Experimental device diagram used to create ans measure HSV around long obstacles emerging from a laminar free-surface.
+**Figure 7**.
+Evolution of the circulation of a tracked vortex along its lide cycle.

@@ -18,9 +18,9 @@
    height="264.06992"
    viewBox="0 0 594.75934 247.56553"
    sodipodi:docname="vortex_superieur.svg"
-   inkscape:export-filename="vortex_superieur.png"
-   inkscape:export-xdpi="200"
-   inkscape:export-ydpi="200"><metadata
+   inkscape:export-filename="vortex_superieur_small.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
@@ -1088,7 +1088,7 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1362"
+     inkscape:window-width="679"
      inkscape:window-height="729"
      id="namedview4"
      showgrid="false"
@@ -1097,9 +1097,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.15"
-     inkscape:cx="370.242"
+     inkscape:cx="244.58983"
      inkscape:cy="94.812678"
-     inkscape:window-x="0"
+     inkscape:window-x="683"
      inkscape:window-y="18"
      inkscape:window-maximized="0"
      inkscape:current-layer="g10" /><g

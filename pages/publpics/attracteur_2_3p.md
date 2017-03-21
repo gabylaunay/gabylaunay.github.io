@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Experimental device diagram
+title: Attractor obtained using delay embedding on data from acoustic-driven cavity flow
 ---
 
 <div class="navbar">
@@ -14,7 +14,7 @@ title: Experimental device diagram
 </div>
 
 
-![Experimental device schematic view](../../assets/pics/Schema_manip.png)
+![Attractor from cavity flow](../../assets/pics/attracteur_2_3p.png)
 
-**Figure 11**.
-Experimental device diagram used to create ans measure HSV around long obstacles emerging from a laminar free-surface.
+**Figure 14**.
+Attractor obtained using delay embedding on data from acoustic-driven cavity flow.

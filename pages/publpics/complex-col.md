@@ -14,6 +14,6 @@ title: Complex regime illustration
 </div>
 
 
-![Complex regime illustration](../../assets/pics/Complex-col.png)
+![Complex regime illustration](../../assets/pics/complex-col.png)
 
-**Figure 3**.
+**Figure 5**.

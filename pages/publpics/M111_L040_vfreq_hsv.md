@@ -14,6 +14,6 @@ title: Direction and amplitude of oscillation of the flow due to the HSV
 </div>
 
 
-![Complex regime illustration](../../assets/pics/M111_L040_vfreq_hsv.png)
+![Direction and amplitude of oscillation](../../assets/pics/M111_L040_vfreq_hsv.png)
 
-**Figure 4**.
+**Figure 3**.

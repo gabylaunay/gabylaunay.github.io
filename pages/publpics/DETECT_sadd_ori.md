@@ -16,4 +16,4 @@ title: Critical points and associated lines detection
 
 ![Critical points and associated lines detection](../../assets/pics/DETECT_sadd_ori.png)
 
-**Figure 2**.
+**Figure 8**.
