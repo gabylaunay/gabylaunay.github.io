@@ -1,0 +1,163 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url('../img/back.png');
+}
+
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: nav;
+  src: url('../font/nav.ttf');
+}
+@font-face {
+  font-family: all;
+  src: url('../font/all.ttf');
+}
+@font-face {
+  font-family: normal;
+  src: url('../font/CD.ttf');
+}
+@font-face {
+  font-family: bold;
+  src: url('../font/CDB.ttf');
+}
+@font-face {
+  font-family: boldI;
+  src: url('../font/CDBI.ttf');
+}
+@font-face {
+  font-family: italic;
+  src: url('../font/CDI.ttf');
+}
+
+
+h1{
+  font-size: 1.5em;
+  font-family: all;
+}
+
+h2{
+  font-size: 1.3em;
+  font-family: bold;
+}
+
+h3{
+  font-size: 1em;
+  font-family: normal;
+}
+
+h4{
+  font-size: 1em;
+  font-family: boldI;
+}
+
+h5{
+  font-size: 1em;
+  font-family: italic;
+}
+
+p{
+  font-family: Arial,sans-serif;
+  font-size: 0.9em;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+a{
+  text-decoration: none;
+  color: #0088cc;
+}
+
+a:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #0089cc;
+}
+
+strong{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+nav.base{
+  width: 100%;
+  height: 60px;
+  background-image: url('../img/nav.png');
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 15px black;
+}
+
+.navLink{
+  text-decoration: none;
+}
+
+div.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav.case{
+  display: flex;
+  height: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+  justify-content: center;
+  font-family: nav;
+  color: rgb(230,220,220);
+  cursor: pointer;
+  padding: 0 35px 0 35px;
+}
+
+nav.case:hover{
+  transition: ease-in 0.1s;
+  box-shadow: 1px 0px 15px rgba(40,40,40,0.5) inset;
+}
+nav.name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 200px;
+  border-right: 1px solid rgb(30, 30, 30);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgb(230,230,230);
+  font-size: 1.4em;
+  font-family: nav;
+  cursor: pointer;
+}
+
+nav.name:hover{
+  transition: ease-out 0.2s;
+  box-shadow: 0px 2px 15px rgb(20,20,20) inset;
+}
+
+nav.empty{
+  height: 60px;
+  width: 200px;
+}
+
+.separator2000{
+  display: inline-block;
+  height: 60px;
+  border-right: 1px solid rgb(40, 40, 40);
+}
+
+footer{
+  display: flex;
+  margin-top: 50px;
+  background-image: url('../img/nav.png');
+  height: 70px;
+  box-shadow: 1px 1px 15px black;
+  justify-content: center;
+  align-items: center;
+}

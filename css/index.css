@@ -1,0 +1,107 @@
+
+
+@font-face {
+  font-family: nav;
+  src: url('../font/nav.ttf');
+}
+@font-face {
+  font-family: all;
+  src: url('../font/all.ttf');
+}
+
+article.base{
+  display: flex;
+  min-height: 500px;
+  padding: 10px;
+  margin: 0px;
+  align-items: center;
+  flex-direction: column;
+}
+
+section.case{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px;
+  width: 800px;
+  max-height: 300px;
+  overflow: auto;
+
+}
+
+section.img{
+  background-color: black;
+}
+
+
+section.txt{
+  align-self: flex-start;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+section.title{
+  background-image: url('../img/squairy_light.png');
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+aside.titleTrue{
+  padding: 10px 20px 10px 20px;
+  font-family: all;
+  color: rgb(70,70,70);
+  font-size: 1.5em;
+}
+
+aside.more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  margin-right: 10px;
+  font-family: all;
+  color: rgb(70,70,70);
+  font-size: 0.9em;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid rgb(220,220,220);
+  cursor: pointer;
+}
+
+article.all{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 20px rgb(200,200,200);
+  margin-top: 20px;
+}
+
+article.all:hover{
+  transition: ease-out 0.3s;
+  box-shadow: 0px 0px 20px rgb(180,180,180);
+}
+
+img.arrow{
+  padding-left: 5px;
+}
+
+section.category{
+  width: 800px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: all;
+  color: rgb(70,70,70);
+  font-size: 1.4em;
+  padding-top: 35px;
+}
+
+div.categoryLine{
+  width: 100%;
+  border-top: 3px double rgb(190,190,190);
+  margin-left: 10px;
+}
