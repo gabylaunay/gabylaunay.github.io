@@ -68,6 +68,31 @@ div.all{
     align-items: center;
     justify-content: center;
 }
+section.title{
+    background-image: url('/assets/img/squairy_light.png');
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside.titleTrue{
+    padding: 10px 20px 10px 20px;
+    font-family: all;
+    color: rgb(70,70,70);
+    font-size: 1.5em;
+}
+
+article.all{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgb(200,200,200);
+    /* margin-top: 20px; */
+}
+
+article.all:hover{
+    transition: ease-out 0.3s;
+    box-shadow: 0px 0px 20px rgb(180,180,180);
+}
 
 nav.case{
     display: flex;
@@ -183,4 +208,23 @@ img.illustration {
 
 a.illustration:hover{
     background-color: rgba(245,245,245,0.9);
+}
+
+section.category-title{
+    width: 800px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: all;
+    color: rgb(70,70,70);
+    font-size: 1.4em;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+div.categoryLine{
+    width: 100%;
+    border-top: 3px double rgb(190,190,190);
+    margin-left: 10px;
 }
