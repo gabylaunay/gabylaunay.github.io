@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--==========================-->
+  <!--=HEAD                     -->
+  <!--==========================-->
+
   <head>
     <title>Gaby Launay</title>
     <meta charset="utf-8">
@@ -7,49 +11,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/index.css">
     <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/lato" type="text/css"/>
   </head>
   <body>
 
-    <!-- DEBUT DE LA BARRE DE NAV -->
 
-    <nav class="base">    <!-- Encart en haut de page (barre de navigation)-->
-      <nav class="name">Gaby Launay</nav> <!-- Case en haut à gauche -->
+    <!--==========================-->
+    <!-- BARRE DE NAV             -->
+    <!--==========================-->
+    <nav class="base">
+      <nav class="name">Gaby Launay</nav>
       <div class="all">
-        <div class="separator2000"></div> <!-- Séparateur verticale -->
+        <div class="separator2000"></div>
         <a class="navLink" href="/index.html">
-          <nav class="case">  <!-- Case de la barre -->
+          <nav class="case">
             Overview
           </nav>
         </a>
-
         <div class="separator2000"></div>
-
         <a class="navLink" href="/pages/publications.html">
-          <nav class="case">  <!-- Case de la barre -->
+          <nav class="case">
             Publications
           </nav>
         </a>
-
         <div class="separator2000"></div>
-
         <a class="navLink" href="/pages/teaching.html">
-          <nav class="case">  <!-- Case de la barre -->
+          <nav class="case">
             Teaching
           </nav>
         </a>
-
         <div class="separator2000"></div>
-
         <a class="navLink" href="/pages/software.html">
-          <nav class="case">  <!-- Case de la barre -->
+          <nav class="case">
             Software
           </nav>
         </a>
-
         <div class="separator2000"></div>
-
         <a class="navLink" href="/pages/about.html">
-          <nav class="case">  <!-- Case de la barre -->
+          <nav class="case">
             About
           </nav>
         </a>
@@ -59,34 +58,39 @@
     </nav>
 
 
-    <!-- FIN DE LA BARRE-->
+    <!--==========================-->
+    <!-- Article Zone             -->
+    <!--==========================-->
+    <article class="base">
 
-    <article class="base"> <!-- La totalité de la zone d'article -->
-      <!-- DEBUT DE L'ARTICLE -->
-      <section class="category"> <!-- Le titre des catégories -->
+      <!--==========================-->
+      <!-- PIV/PLIF                 -->
+      <!--==========================-->
+      <section class="category">
         <h1>PIV/PLIF</h1>
-        <div class="categoryLine"></div>  <!-- La ligne de séparation (elle s'adapte auto) -->
+        <div class="categoryLine"></div>
       </section>
 
-      <article class="all"> <!-- La totalité de la box "Article" -->
-        <section class="title"> <!-- La box flex qui gère le placement du titre et du "More" -->
-          <aside class="titleTrue"> <!-- Le placement du titre -->
+      <!--==========================-->
+      <!-- PIV1                     -->
+      <!--==========================-->
+      <article class="all">
+        <section class="title">
+          <aside class="titleTrue">
             Vorticity fields in a HSV
           </aside>
-          <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+          <!--=<aside class="more">  <\!-- Bouton "More" -\-> -->
           <!--   More -->
           <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
           <!-- </aside> -->
         </section>
         <section class="container-lr">
-
-          <section class="img"> <!-- La photo de l'article -->
+          <section class="img">
             <a href="/pages/PIV1.html">
-            <img class="illustration" src="/assets/illustrations/PIV1_small.png" alt="Vorticity field in a HSV" style="width: 350px;"> <!-- La hauteur est auto, si tu la veux plus petite, remplace le "width" -->
+              <img class="illustration" src="/assets/illustrations/PIV1_small.png" alt="Vorticity field in a HSV" style="width: 350px;">
             </a>
           </section>
-
-          <section class="txt"> <!-- La description -->
+          <section class="txt">
             Vorticity field measured by PIV in the vertical plane of symmetry of a horseshoe vortex developing around an emerging obstacle.<br>
             The vortices composing the horseshoe vortex are clearly visible as minima of vorticity.<br>
             This representaation allows to track the vortices in time and to have qualitative information on the flow dynamics.
@@ -94,9 +98,12 @@
         </section>
       </article>
 
-      <article class="all"> <!-- La totalité de la box "Article" -->
-        <section class="title"> <!-- La box flex qui gère le placement du titre et du "More" -->
-          <aside class="titleTrue"> <!-- Le placement du titre -->
+      <!--==========================-->
+      <!-- PIV2                     -->
+      <!--==========================-->
+      <article class="all">
+        <section class="title">
+          <aside class="titleTrue">
             FPIV in supercritical flows
           </aside>
           <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
@@ -105,27 +112,32 @@
           <!-- </aside> -->
         </section>
         <section class="container-ud">
-
-          <section class="img"> <!-- La photo de l'article -->
+          <section class="img">
             <a href="/pages/PIV2.html">
-            <img class="illustration" src="/assets/illustrations/PIV2_small.png" alt="FPIV in supercritical flows" style="width: 700px;"> <!-- La hauteur est auto, si tu la veux plus petite, remplace le "width" -->
+              <img class="illustration" src="/assets/illustrations/PIV2_small.png" alt="FPIV in supercritical flows" style="width: 600px;">
             </a>
           </section>
-          <section class="txt"> <!-- La description -->
+          <section class="txt">
             PIVF (Particle Image Velocimetry by Fluorescence) in the vertical plan of a super-critical flow <em>Fr>1</em> around an emerging obstacle.<br>
             PIVF allows to remove the scattered part of the laser emission, and make measurement in the presence of a strongly deformed and agitated free-surface.
           </section>
         </section>
       </article>
 
-      <section class="category"> <!-- Le titre des catégories -->
+      <!--==========================-->
+      <!-- Flow Dynamics            -->
+      <!--==========================-->
+      <section class="category">
         <h1>Flow Dynamics</h1>
-        <div class="categoryLine"></div>  <!-- La ligne de séparation (elle s'adapte auto) -->
+        <div class="categoryLine"></div>
       </section>
 
-      <article class="all"> <!-- La totalité de la box "Article" -->
-        <section class="title"> <!-- La box flex qui gère le placement du titre et du "More" -->
-          <aside class="titleTrue"> <!-- Le placement du titre -->
+      <!--==========================-->
+      <!-- Flow Dyn 1               -->
+      <!--==========================-->
+      <article class="all">
+        <section class="title">
+          <aside class="titleTrue">
             Oscillation direction and amplitude
           </aside>
           <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
@@ -134,20 +146,111 @@
           <!-- </aside> -->
         </section>
         <section class="container-lr">
-
-          <section class="img"> <!-- La photo de l'article -->
+          <section class="img">
             <a href="/pages/flow_dyn1.html">
-            <img class="illustration" src="/assets/illustrations/flow_dyn1_small.png" alt="Oscillation direction and amplitude" style="width: 350px;"> <!-- La hauteur est auto, si tu la veux plus petite, remplace le "width" -->
+              <img class="illustration" src="/assets/illustrations/flow_dyn1_small.png" alt="Oscillation direction and amplitude" style="width: 350px;">
             </a>
           </section>
-          <section class="txt"> <!-- La description -->
+          <section class="txt">
             Oscillation direction and amplitude due to the horseshoe vortex in a flow around an emerging obstacle.<br>
             Extracting the oscillation due to a particular structure (here the HSV) at a given frequency allows to visualize the impact of this structure on the surrounding flow.
           </section>
         </section>
       </article>
 
-      <!-- FIN DE l'ARTICLE -->
+      <!--==========================-->
+      <!-- Vortex detection         -->
+      <!--==========================-->
+      <section class="category">
+        <h1>Vortex detection</h1>
+        <div class="categoryLine"></div>
+      </section>
+
+      <!--==========================-->
+      <!-- Vortex detection 1       -->
+      <!--==========================-->
+      <article class="all">
+        <section class="title">
+          <aside class="titleTrue">
+            Vortex detection on turbulent shear layers
+          </aside>
+          <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+          <!--   More -->
+          <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+          <!-- </aside> -->
+        </section>
+        <section class="container-lr">
+          <section class="img">
+            <a href="/pages/vort_detect1.html">
+              <img class="illustration" src="/assets/illustrations/vort_detect1_small.png" alt="Vortex detection on turbulent shear layers" style="width: 300px;">
+            </a>
+          </section>
+          <section class="txt">
+            Structure detection in a shear layer generated by a cavity flow.<br>
+            Red and blue zones represent vortices advected downstream, detected using a POD filtering and the Gamma 2 criterion from Graftieaux et al (2001).
+            <!-- todo : add link to articles everywhere -->
+          </section>
+        </section>
+      </article>
+
+      <!--==========================-->
+      <!-- Vortex detection 2       -->
+      <!--==========================-->
+      <article class="all">
+        <section class="title">
+          <aside class="titleTrue">
+            Vortex density maps
+          </aside>
+          <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+          <!--   More -->
+          <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+          <!-- </aside> -->
+        </section>
+        <section class="container-ud">
+          <section class="img">
+            <a href="/pages/vort_detect2.html">
+              <img class="illustration" src="/assets/illustrations/vort_detect2_small.png" alt="Vortex density maps" style="width: 600px;">
+            </a>
+          </section>
+          <section class="txt">
+            Clockwise and counter-clockwise vortex presence density maps.<br>
+            A kernel density estimator (KDE) is used to access the vortices preferential positions and trajectories.<br>
+            Here the vortices appears at the beginning of the shear layer and are then advected downstream, ending in the flow (bottom part) or in the cavity (upper part).
+            <!-- todo : add link to articles everywhere -->
+          </section>
+        </section>
+      </article>
+
+      <!--==========================-->
+      <!-- Vortex detection 3       -->
+      <!--==========================-->
+      <article class="all">
+        <section class="title">
+          <aside class="titleTrue">
+            Vortex dynamics
+          </aside>
+          <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+          <!--   More -->
+          <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+          <!-- </aside> -->
+        </section>
+        <section class="container-lr">
+          <section class="img">
+            <a href="/pages/vort_detect3.html">
+              <img class="illustration" src="/assets/illustrations/vort_detect3_small.png" alt="Vortex dynamics" style="width: 350px;">
+            </a>
+          </section>
+          <section class="txt">
+            Determination of the dynamic regime of a horseshoe vortex developing around an emerging obstacle using vortex detection.<br>
+            The horseshoe vortex is here in a <em>Complex</em> regime, characterized by an irregular (but periodical) alternation of vortex behavior.
+            <!-- todo : add link to articles everywhere -->
+          </section>
+        </section>
+      </article>
+
+
+
+
     </article>
 
     <footer>

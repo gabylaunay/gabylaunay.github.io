@@ -4,10 +4,10 @@
   font-family: nav;
   src: url('/assets/font/nav.ttf');
 }
-@font-face {
-  font-family: all;
-  src: url('/assets/font/all.ttf');
-}
+/* @font-face { */
+/*   font-family: all; */
+/*   src: url('/assets/font/all.ttf'); */
+/* } */
 
 article.base{
   display: flex;
@@ -58,6 +58,7 @@ section.img{
 
 
 section.txt{
+  font-family: all;
   align-self: flex-start;
   padding: 2em;
 }

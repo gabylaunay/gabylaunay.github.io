@@ -13,10 +13,10 @@ html{
   font-family: nav;
   src: url('/assets/font/nav.ttf');
 }
-@font-face {
-  font-family: all;
-  src: url('/assets/font/all.ttf');
-}
+/* @font-face { */
+  /* font-family: all; */
+  /* src: url('/assets/font/all.ttf'); */
+/* } */
 
 h1{
   font-size: 1.5em;
@@ -26,6 +26,7 @@ h1{
 
 h3{
   font-size: 1em;
+  font-family: all;
 }
 
 img{
