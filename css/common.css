@@ -17,22 +17,22 @@ html{
   font-family: all;
   src: url('../font/all.ttf');
 }
-@font-face {
-  font-family: normal;
-  src: url('../font/CD.ttf');
-}
-@font-face {
-  font-family: bold;
-  src: url('../font/CDB.ttf');
-}
-@font-face {
-  font-family: boldI;
-  src: url('../font/CDBI.ttf');
-}
-@font-face {
-  font-family: italic;
-  src: url('../font/CDI.ttf');
-}
+/* @font-face { */
+/*   font-family: normal; */
+/*   src: url('../font/CD.ttf'); */
+/* } */
+/* @font-face { */
+/*   font-family: bold; */
+/*   src: url('../font/CDB.ttf'); */
+/* } */
+/* @font-face { */
+/*   font-family: boldI; */
+/*   src: url('../font/CDBI.ttf'); */
+/* } */
+/* @font-face { */
+/*   font-family: italic; */
+/*   src: url('../font/CDI.ttf'); */
+/* } */
 
 
 h1{
@@ -40,29 +40,8 @@ h1{
   font-family: all;
 }
 
-h2{
-  font-size: 1.3em;
-  font-family: bold;
-}
-
 h3{
   font-size: 1em;
-  font-family: normal;
-}
-
-h4{
-  font-size: 1em;
-  font-family: boldI;
-}
-
-h5{
-  font-size: 1em;
-  font-family: italic;
-}
-
-p{
-  font-family: Arial,sans-serif;
-  font-size: 0.9em;
 }
 
 img{
@@ -133,7 +112,7 @@ nav.name{
   color: rgb(230,230,230);
   font-size: 1.4em;
   font-family: nav;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 nav.name:hover{
