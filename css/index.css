@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: nav;
-  src: url('../font/nav.ttf');
+  src: url('/assets/font/nav.ttf');
 }
 @font-face {
   font-family: all;
-  src: url('../font/all.ttf');
+  src: url('/assets/font/all.ttf');
 }
 
 article.base{
@@ -27,22 +27,43 @@ section.case{
   width: 800px;
   max-height: 300px;
   overflow: auto;
+}
+
+section.container-lr{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  width: 800px;
+  overflow: auto;
+}
+
+section.container-ud{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px;
+  width: 800px;
+  overflow: auto;
 
 }
 
 section.img{
-  background-color: black;
+  background-color: white;
 }
 
 
 section.txt{
   align-self: flex-start;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 2em;
 }
 
 section.title{
-  background-image: url('../img/squairy_light.png');
+  background-image: url('/assets/img/squairy_light.png');
   display: flex;
   align-items: center;
   justify-content: space-between;
