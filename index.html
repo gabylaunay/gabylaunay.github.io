@@ -23,11 +23,9 @@
       <nav class="name">Gaby Launay</nav>
       <div class="all">
         <div class="separator2000"></div>
-        <a class="navLink" href="/index.html">
-          <nav class="case">
-            Overview
-          </nav>
-        </a>
+        <nav class="case-current">
+          Overview
+        </nav>
         <div class="separator2000"></div>
         <a class="navLink" href="/pages/publications.html">
           <nav class="case">
@@ -59,200 +57,217 @@
 
 
     <!--==========================-->
+    <!-- Lateral nav barre        -->
+    <!--==========================-->
+    <nav class="lateral">
+      <div class="separator2000-horiz"></div>
+      <a class="navLink" href="/index.html#PIV">
+        <nav class="case-lateral">
+          PIV/PIVF
+        </nav>
+      </a>
+      <div class="separator2000-horiz"></div>
+      <a class="navLink" href="/index.html#flow-dyn">
+        <nav class="case-lateral">
+          Flow dynamics
+        </nav>
+      </a>
+      <div class="separator2000-horiz"></div>
+      <a class="navLink" href="/index.html#vort-detect">
+        <nav class="case-lateral">
+          Vortex detection
+        </nav>
+      </a>
+      <div class="separator2000-horiz"></div>
+    </nav>
+
+
+
+    <!--==========================-->
     <!-- Article Zone             -->
     <!--==========================-->
     <article class="base">
 
       <!--==========================-->
-      <!-- PIV/PLIF                 -->
+      <!-- PIV                      -->
       <!--==========================-->
-      <section class="category">
-        <h1>PIV/PLIF</h1>
+      <section class="category-title">
+        <h1 id="PIV">PIV/PIVF</h1>
         <div class="categoryLine"></div>
       </section>
 
-      <!--==========================-->
-      <!-- PIV1                     -->
-      <!--==========================-->
-      <article class="all">
-        <section class="title">
-          <aside class="titleTrue">
-            Vorticity fields in a HSV
-          </aside>
-          <!--=<aside class="more">  <\!-- Bouton "More" -\-> -->
-          <!--   More -->
-          <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
-          <!-- </aside> -->
-        </section>
-        <section class="container-lr">
-          <section class="img">
-            <a href="/pages/PIV1.html">
-              <img class="illustration" src="/assets/illustrations/PIV1_small.png" alt="Vorticity field in a HSV" style="width: 350px;">
-            </a>
+      <section class="category">
+        <!--==========================-->
+        <!-- PIV1                     -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Vorticity fields in a HSV
+            </aside>
+            <!--=<aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
           </section>
-          <section class="txt">
-            Vorticity field measured by PIV in the vertical plane of symmetry of a horseshoe vortex developing around an emerging obstacle.<br>
-            The vortices composing the horseshoe vortex are clearly visible as minima of vorticity.<br>
-            This representaation allows to track the vortices in time and to have qualitative information on the flow dynamics.
+          <section class="container-lr">
+              <a class="illustration" href="/pages/PIV1.html">
+                <img class="illustration" src="/assets/illustrations/PIV1_small.png" alt="Vorticity field in a HSV" style="width: 350px;">
+              </a>
+            <section class="txt">
+              Vorticity field measured by PIV in the vertical plane of symmetry of a horseshoe vortex developing around an emerging obstacle.<br>
+              The vortices composing the horseshoe vortex are clearly visible as minima of vorticity.<br>
+              This representaation allows to track the vortices in time and to have qualitative information on the flow dynamics.
+            </section>
           </section>
-        </section>
-      </article>
+        </article>
 
-      <!--==========================-->
-      <!-- PIV2                     -->
-      <!--==========================-->
-      <article class="all">
-        <section class="title">
-          <aside class="titleTrue">
-            FPIV in supercritical flows
-          </aside>
-          <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
-          <!--   More -->
-          <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
-          <!-- </aside> -->
-        </section>
-        <section class="container-ud">
-          <section class="img">
-            <a href="/pages/PIV2.html">
-              <img class="illustration" src="/assets/illustrations/PIV2_small.png" alt="FPIV in supercritical flows" style="width: 600px;">
-            </a>
+        <!--==========================-->
+        <!-- PIV2                     -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              PIVF in supercritical flows
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
           </section>
-          <section class="txt">
-            PIVF (Particle Image Velocimetry by Fluorescence) in the vertical plan of a super-critical flow <em>Fr>1</em> around an emerging obstacle.<br>
-            PIVF allows to remove the scattered part of the laser emission, and make measurement in the presence of a strongly deformed and agitated free-surface.
+          <section class="container-ud">
+              <a class="illustration" href="/pages/PIV2.html">
+                <img class="illustration" src="/assets/illustrations/PIV2_small.png" alt="FPIV in supercritical flows" style="width: 600px;">
+              </a>
+            <section class="txt">
+              PIVF (Particle Image Velocimetry by Fluorescence) in the vertical plan of a super-critical flow <em>Fr>1</em> around an emerging obstacle.<br>
+              PIVF allows to remove the scattered part of the laser emission, and make measurement in the presence of a strongly deformed and agitated free-surface.
+            </section>
           </section>
-        </section>
-      </article>
+        </article>
+      </section>
 
       <!--==========================-->
       <!-- Flow Dynamics            -->
       <!--==========================-->
-      <section class="category">
-        <h1>Flow Dynamics</h1>
+      <section class="category-title">
+        <h1 id="flow-dyn">Flow Dynamics</h1>
         <div class="categoryLine"></div>
       </section>
 
-      <!--==========================-->
-      <!-- Flow Dyn 1               -->
-      <!--==========================-->
-      <article class="all">
-        <section class="title">
-          <aside class="titleTrue">
-            Oscillation direction and amplitude
-          </aside>
-          <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
-          <!--   More -->
-          <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
-          <!-- </aside> -->
-        </section>
-        <section class="container-lr">
-          <section class="img">
-            <a href="/pages/flow_dyn1.html">
-              <img class="illustration" src="/assets/illustrations/flow_dyn1_small.png" alt="Oscillation direction and amplitude" style="width: 350px;">
-            </a>
+      <section class="category">
+        <!--==========================-->
+        <!-- Flow Dyn 1               -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Oscillation direction and amplitude
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
           </section>
-          <section class="txt">
-            Oscillation direction and amplitude due to the horseshoe vortex in a flow around an emerging obstacle.<br>
-            Extracting the oscillation due to a particular structure (here the HSV) at a given frequency allows to visualize the impact of this structure on the surrounding flow.
+          <section class="container-lr">
+              <a class="illustration" href="/pages/flow_dyn1.html">
+                <img class="illustration" src="/assets/illustrations/flow_dyn1_small.png" alt="Oscillation direction and amplitude" style="width: 350px;">
+              </a>
+            <section class="txt">
+              Oscillation direction and amplitude due to the horseshoe vortex in a flow around an emerging obstacle.<br>
+              Extracting the oscillation due to a particular structure (here the HSV) at a given frequency allows to visualize the impact of this structure on the surrounding flow.
+            </section>
           </section>
-        </section>
-      </article>
+        </article>
+      </section>
 
       <!--==========================-->
       <!-- Vortex detection         -->
       <!--==========================-->
-      <section class="category">
-        <h1>Vortex detection</h1>
+      <section class="category-title">
+        <h1 id="vort-detect">Vortex detection</h1>
         <div class="categoryLine"></div>
       </section>
 
-      <!--==========================-->
-      <!-- Vortex detection 1       -->
-      <!--==========================-->
-      <article class="all">
-        <section class="title">
-          <aside class="titleTrue">
-            Vortex detection on turbulent shear layers
-          </aside>
-          <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
-          <!--   More -->
-          <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
-          <!-- </aside> -->
-        </section>
-        <section class="container-lr">
-          <section class="img">
-            <a href="/pages/vort_detect1.html">
-              <img class="illustration" src="/assets/illustrations/vort_detect1_small.png" alt="Vortex detection on turbulent shear layers" style="width: 300px;">
-            </a>
+      <section class="category">
+        <!--==========================-->
+        <!-- Vortex detection 1       -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Vortex detection on turbulent shear layers
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
           </section>
-          <section class="txt">
-            Structure detection in a shear layer generated by a cavity flow.<br>
-            Red and blue zones represent vortices advected downstream, detected using a POD filtering and the Gamma 2 criterion from Graftieaux et al (2001).
-            <!-- todo : add link to articles everywhere -->
+          <section class="container-lr">
+              <a class="illustration" href="/pages/vort_detect1.html">
+                <img class="illustration" src="/assets/illustrations/vort_detect1_small.png" alt="Vortex detection on turbulent shear layers" style="width: 300px;">
+              </a>
+            <section class="txt">
+              Structure detection in a shear layer generated by a cavity flow.<br>
+              Red and blue zones represent vortices advected downstream, detected using a POD filtering and the Gamma 2 criterion from Graftieaux et al (2001).
+              <!-- todo : add link to articles everywhere -->
+            </section>
           </section>
-        </section>
-      </article>
+        </article>
 
-      <!--==========================-->
-      <!-- Vortex detection 2       -->
-      <!--==========================-->
-      <article class="all">
-        <section class="title">
-          <aside class="titleTrue">
-            Vortex density maps
-          </aside>
-          <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
-          <!--   More -->
-          <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
-          <!-- </aside> -->
-        </section>
-        <section class="container-ud">
-          <section class="img">
-            <a href="/pages/vort_detect2.html">
-              <img class="illustration" src="/assets/illustrations/vort_detect2_small.png" alt="Vortex density maps" style="width: 600px;">
-            </a>
+        <!--==========================-->
+        <!-- Vortex detection 2       -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Vortex density maps
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
           </section>
-          <section class="txt">
-            Clockwise and counter-clockwise vortex presence density maps.<br>
-            A kernel density estimator (KDE) is used to access the vortices preferential positions and trajectories.<br>
-            Here the vortices appears at the beginning of the shear layer and are then advected downstream, ending in the flow (bottom part) or in the cavity (upper part).
-            <!-- todo : add link to articles everywhere -->
+          <section class="container-ud">
+              <a class="illustration" href="/pages/vort_detect2.html">
+                <img class="illustration" src="/assets/illustrations/vort_detect2_small.png" alt="Vortex density maps" style="width: 600px;">
+              </a>
+            <section class="txt">
+              Clockwise and counter-clockwise vortex presence density maps.<br>
+              A kernel density estimator (KDE) is used to access the vortices preferential positions and trajectories.<br>
+              Here the vortices appears at the beginning of the shear layer and are then advected downstream, ending in the flow (bottom part) or in the cavity (upper part).
+              <!-- todo : add link to articles everywhere -->
+            </section>
           </section>
-        </section>
-      </article>
+        </article>
 
-      <!--==========================-->
-      <!-- Vortex detection 3       -->
-      <!--==========================-->
-      <article class="all">
-        <section class="title">
-          <aside class="titleTrue">
-            Vortex dynamics
-          </aside>
-          <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
-          <!--   More -->
-          <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
-          <!-- </aside> -->
-        </section>
-        <section class="container-lr">
-          <section class="img">
-            <a href="/pages/vort_detect3.html">
-              <img class="illustration" src="/assets/illustrations/vort_detect3_small.png" alt="Vortex dynamics" style="width: 350px;">
-            </a>
+        <!--==========================-->
+        <!-- Vortex detection 3       -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Vortex dynamics
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
           </section>
-          <section class="txt">
-            Determination of the dynamic regime of a horseshoe vortex developing around an emerging obstacle using vortex detection.<br>
-            The horseshoe vortex is here in a <em>Complex</em> regime, characterized by an irregular (but periodical) alternation of vortex behavior.
-            <!-- todo : add link to articles everywhere -->
+          <section class="container-lr">
+              <a class="illustration" href="/pages/vort_detect3.html">
+                <img class="illustration" src="/assets/illustrations/vort_detect3_small.png" alt="Vortex dynamics" style="width: 350px;">
+              </a>
+            <section class="txt">
+              Determination of the dynamic regime of a horseshoe vortex developing around an emerging obstacle using vortex detection.<br>
+              The horseshoe vortex is here in a <em>Complex</em> regime, characterized by an irregular (but periodical) alternation of vortex behavior.
+              <!-- todo : add link to articles everywhere -->
+            </section>
           </section>
-        </section>
-      </article>
-
-
-
-
+        </article>
+      </section>
     </article>
-
+    <!-- </div> -->
     <footer>
       <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/fr/88x31.png" /></a>
     </footer>
