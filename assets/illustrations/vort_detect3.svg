@@ -17,10 +17,10 @@
    width="1059.8063"
    height="742.32281"
    viewBox="0 0 993.56839 695.92762"
-   sodipodi:docname="complex-col.svg"
-   inkscape:export-filename="complex-col_small.png"
-   inkscape:export-xdpi="100"
-   inkscape:export-ydpi="100"><metadata
+   sodipodi:docname="vort_detect3.svg"
+   inkscape:export-filename="vort_detect3.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
@@ -1259,20 +1259,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="679"
-     inkscape:window-height="729"
+     inkscape:window-width="1596"
+     inkscape:window-height="861"
      id="namedview4"
      showgrid="false"
      inkscape:object-nodes="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1.9000914"
-     inkscape:cx="870.53686"
-     inkscape:cy="582.88925"
-     inkscape:window-x="683"
+     inkscape:zoom="0.67178376"
+     inkscape:cx="519.3097"
+     inkscape:cy="356.62541"
+     inkscape:window-x="0"
      inkscape:window-y="18"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g5059"
+     inkscape:current-layer="g10"
      inkscape:snap-smooth-nodes="true"
      inkscape:object-paths="true"
      inkscape:snap-global="true"
@@ -2056,7 +2056,7 @@
          id="tspan4923"
          x="228.35931"
          y="-151.07231"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.38978481px;line-height:125%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Oscillant</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.38978481px;line-height:125%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Oscillating</tspan></text>
 <text
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif, Normal';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.7006979px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
@@ -2080,7 +2080,7 @@
          y="-196.14194"
          x="228.71329"
          id="tspan6037"
-         sodipodi:role="line">Fusion</tspan></text>
+         sodipodi:role="line">Merging</tspan></text>
 <text
        transform="scale(1,-1)"
        id="text4915"
@@ -2092,7 +2092,7 @@
          y="-257.83002"
          x="228.71329"
          id="tspan4917"
-         sodipodi:role="line">Echappement</tspan></text>
+         sodipodi:role="line">Breaking</tspan></text>
 <g
        transform="matrix(0.11192534,0,0,-0.11192534,426.87376,230.92592)"
        id="g4335"><path
@@ -3866,12 +3866,12 @@
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
        id="path10144"
-       d="m 396.03811,233.09379 -32.25256,28.88629 H 324.0669"
+       d="m 396.03811,233.09379 -32.25256,28.88629 -70.42049,0"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /><path
-       sodipodi:nodetypes="cc"
+       sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
        id="path10146"
-       d="m 396.03811,174.51882 c 0,0 -72.01846,70.61092 -73.62326,70.61092 H 295.983"
+       d="m 396.03811,174.51882 c 0,0 -72.01846,70.61092 -73.62326,70.61092 h -28.94382"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /><path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -3881,12 +3881,13 @@
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
        id="path10150"
-       d="M 396.02644,56.967671 313.94938,156.06368 H 291.68115"
+       d="m 396.02644,56.967671 -82.07706,99.096009 h -9.01062"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /><path
        inkscape:connector-curvature="0"
        id="path10152"
-       d="M 322.44826,199.39312 H 278.6314"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /><path
+       d="M 322.44826,199.39312 H 289.37705"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cc" /><path
        inkscape:connector-curvature="0"
        id="path10154"
        d="M 322.77574,156.06368 Z"

@@ -60,6 +60,11 @@
     <!-- Lateral nav barre        -->
     <!--==========================-->
     <nav class="lateral">
+      <a class="navLink" href="/index.html#nl-dyn">
+        <nav class="case-lateral">
+          Non-linear dynamics
+        </nav>
+      </a>
       <div class="separator2000-horiz"></div>
       <a class="navLink" href="/index.html#PIV">
         <nav class="case-lateral">
@@ -73,20 +78,119 @@
         </nav>
       </a>
       <div class="separator2000-horiz"></div>
+      <a class="navLink" href="/index.html#flow-topo">
+        <nav class="case-lateral">
+          Flow topology
+        </nav>
+      </a>
+      <div class="separator2000-horiz"></div>
       <a class="navLink" href="/index.html#vort-detect">
         <nav class="case-lateral">
           Vortex detection
         </nav>
       </a>
       <div class="separator2000-horiz"></div>
+      <a class="navLink" href="/index.html#simulations">
+        <nav class="case-lateral">
+          Modelisation
+        </nav>
+      </a>
     </nav>
-
 
 
     <!--==========================-->
     <!-- Article Zone             -->
     <!--==========================-->
     <article class="base">
+
+      <!--==========================-->
+      <!-- Non-linear dynamics      -->
+      <!--==========================-->
+      <section class="category-title">
+        <h1 id="nl-dyn">Non-linear dynamics</h1>
+        <div class="categoryLine"></div>
+      </section>
+
+      <section class="category">
+        <!--==========================-->
+        <!-- Non-linear dynamics 1    -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Non-chaotic attractor
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
+          </section>
+          <section class="container-lr">
+            <a class="illustration" href="/pages/nl-dyn1.html">
+              <img class="illustration" src="/assets/illustrations/nl-dyn1_small.png" alt="Non-chaotic attractor" style="width: 300px;">
+            </a>
+            <section class="txt">
+              Attractor obtained from the evolution of the velocity in an acoustic-driven cavity flow.<br>
+              The velocity time-series is quite complex, but the attractor obtained using the delay embedding method allow to extract the underlying dynamics, represented by a non-chaotic torus.
+              <!-- todo : add link to articles everywhere -->
+            </section>
+          </section>
+        </article>
+
+        <!--==========================-->
+        <!-- Non-linear dynamics 2    -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Chaotic attractor
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
+          </section>
+          <section class="container-lr">
+            <a class="illustration" href="/pages/nl-dyn2.html">
+              <img class="illustration" src="/assets/illustrations/nl-dyn2_small.png" alt="Chaotic attractor" style="width: 300px;">
+            </a>
+            <section class="txt">
+              Attractor obtained from the evolution of the velocity in a strong acoustic-driven cavity flow.<br>
+              With the increase of the main velocity, the flow adopts a more complex behavior, represented in the phase space by a chaotic attractor.<br>
+              This chaotic dynamics implies that the flow is unpredictable on the long term, due to sensitivity to initial conditions.
+              <!-- todo : add link to articles everywhere -->
+            </section>
+          </section>
+        </article>
+
+        <!--==========================-->
+        <!-- Non-linear dynamics 3    -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Poincare section
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
+          </section>
+          <section class="container-ud">
+            <a class="illustration" href="/pages/nl-dyn3.html">
+              <img class="illustration" src="/assets/illustrations/nl-dyn3_small.png" alt="Poincare section" style="width: 500px;">
+            </a>
+            <section class="txt">
+              Attractor obtained from the evolution of the velocity in a strong acoustic-driven cavity flow.<br>
+              Right: representation of the attractor in the three-dimensional phase space.<br>
+              Left: Density map of the Poincare section in one of the main attractor direction.<br>
+              The Poincare section helps reducing the dimension number and getting an insight on the attractor properties (fractality, dimensions, chaotic behavior).
+              <!-- todo : add link to articles everywhere -->
+            </section>
+          </section>
+        </article>
+      </section>
+
 
       <!--==========================-->
       <!-- PIV                      -->
@@ -97,6 +201,32 @@
       </section>
 
       <section class="category">
+        <!--==========================-->
+        <!-- PIV0                     -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Velocity field in a HSV
+            </aside>
+            <!--=<aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
+          </section>
+          <section class="container-lr">
+            <a class="illustration" href="/pages/PIV0.html">
+              <img class="illustration" src="/assets/illustrations/PIV0_small.png" alt="Velocity field in a HSV" style="width: 350px;">
+            </a>
+            <section class="txt">
+              Velocity field upstream from an emerging obstacle obtained by PIV.<br>
+              Measurement is taken in the vertical upstream plane of symmetry and show two swirling structures:
+              (i) the HSV, created in the bottom region by the boundary layer separation, and
+              (ii) the superior TFC, created by the first one at the corner between the obstacle and the free-surface.
+            </section>
+          </section>
+        </article>
+
         <!--==========================-->
         <!-- PIV1                     -->
         <!--==========================-->
@@ -111,9 +241,9 @@
             <!-- </aside> -->
           </section>
           <section class="container-lr">
-              <a class="illustration" href="/pages/PIV1.html">
-                <img class="illustration" src="/assets/illustrations/PIV1_small.png" alt="Vorticity field in a HSV" style="width: 350px;">
-              </a>
+            <a class="illustration" href="/pages/PIV1.html">
+              <img class="illustration" src="/assets/illustrations/PIV1_small.png" alt="Vorticity field in a HSV" style="width: 350px;">
+            </a>
             <section class="txt">
               Vorticity field measured by PIV in the vertical plane of symmetry of a horseshoe vortex developing around an emerging obstacle.<br>
               The vortices composing the horseshoe vortex are clearly visible as minima of vorticity.<br>
@@ -136,9 +266,9 @@
             <!-- </aside> -->
           </section>
           <section class="container-ud">
-              <a class="illustration" href="/pages/PIV2.html">
-                <img class="illustration" src="/assets/illustrations/PIV2_small.png" alt="FPIV in supercritical flows" style="width: 600px;">
-              </a>
+            <a class="illustration" href="/pages/PIV2.html">
+              <img class="illustration" src="/assets/illustrations/PIV2_small.png" alt="FPIV in supercritical flows" style="width: 600px;">
+            </a>
             <section class="txt">
               PIVF (Particle Image Velocimetry by Fluorescence) in the vertical plan of a super-critical flow <em>Fr>1</em> around an emerging obstacle.<br>
               PIVF allows to remove the scattered part of the laser emission, and make measurement in the presence of a strongly deformed and agitated free-surface.
@@ -170,9 +300,9 @@
             <!-- </aside> -->
           </section>
           <section class="container-lr">
-              <a class="illustration" href="/pages/flow_dyn1.html">
-                <img class="illustration" src="/assets/illustrations/flow_dyn1_small.png" alt="Oscillation direction and amplitude" style="width: 350px;">
-              </a>
+            <a class="illustration" href="/pages/flow_dyn1.html">
+              <img class="illustration" src="/assets/illustrations/flow_dyn1_small.png" alt="Oscillation direction and amplitude" style="width: 350px;">
+            </a>
             <section class="txt">
               Oscillation direction and amplitude due to the horseshoe vortex in a flow around an emerging obstacle.<br>
               Extracting the oscillation due to a particular structure (here the HSV) at a given frequency allows to visualize the impact of this structure on the surrounding flow.
@@ -180,6 +310,71 @@
           </section>
         </article>
       </section>
+
+
+      <!--==========================-->
+      <!-- Flow topology            -->
+      <!--==========================-->
+      <section class="category-title">
+        <h1 id="flow-topo">Flow topology</h1>
+        <div class="categoryLine"></div>
+      </section>
+
+      <section class="category">
+        <!--==========================-->
+        <!-- Flow topology 1          -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Critical points
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
+          </section>
+          <section class="container-lr">
+            <a class="illustration" href="/pages/flow_topo1.html">
+              <img class="illustration" src="/assets/illustrations/flow_topo1_small.png" alt="Critical points" style="width: 300px;">
+            </a>
+            <section class="txt">
+              Critical points and associated streamlines in a 2D velocity field.
+              Critical points allow to study quantitatively the flow dynamics by following in time their positions.<br>
+              Associated lines separate the flow in different regions and allow to identify the feeding and the fed regions.
+              <!-- todo : add link to articles everywhere -->
+            </section>
+          </section>
+        </article>
+
+
+        <!--==========================-->
+        <!-- Flow topology 2          -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Topological simplification
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
+          </section>
+          <section class="container-lr">
+            <a class="illustration" href="/pages/flow_topo2.html">
+              <img class="illustration" src="/assets/illustrations/flow_topo2_small.png" alt="Topological simplification" style="width: 300px;">
+            </a>
+            <section class="txt">
+              Illustration of a topological simplification used to extract the vortex center from a noisy synthetic velocity field.<br>
+              Left figure shows the set of critical points detected on the center of the vortex.<br>
+              Right figure shows the critical point resulting from a topological simplification using non-local criterion.
+              <!-- todo : add link to articles everywhere -->
+            </section>
+          </section>
+        </article>
+      </section>
+
 
       <!--==========================-->
       <!-- Vortex detection         -->
@@ -204,9 +399,9 @@
             <!-- </aside> -->
           </section>
           <section class="container-lr">
-              <a class="illustration" href="/pages/vort_detect1.html">
-                <img class="illustration" src="/assets/illustrations/vort_detect1_small.png" alt="Vortex detection on turbulent shear layers" style="width: 300px;">
-              </a>
+            <a class="illustration" href="/pages/vort_detect1.html">
+              <img class="illustration" src="/assets/illustrations/vort_detect1_small.png" alt="Vortex detection on turbulent shear layers" style="width: 300px;">
+            </a>
             <section class="txt">
               Structure detection in a shear layer generated by a cavity flow.<br>
               Red and blue zones represent vortices advected downstream, detected using a POD filtering and the Gamma 2 criterion from Graftieaux et al (2001).
@@ -229,9 +424,9 @@
             <!-- </aside> -->
           </section>
           <section class="container-ud">
-              <a class="illustration" href="/pages/vort_detect2.html">
-                <img class="illustration" src="/assets/illustrations/vort_detect2_small.png" alt="Vortex density maps" style="width: 600px;">
-              </a>
+            <a class="illustration" href="/pages/vort_detect2.html">
+              <img class="illustration" src="/assets/illustrations/vort_detect2_small.png" alt="Vortex density maps" style="width: 600px;">
+            </a>
             <section class="txt">
               Clockwise and counter-clockwise vortex presence density maps.<br>
               A kernel density estimator (KDE) is used to access the vortices preferential positions and trajectories.<br>
@@ -255,9 +450,9 @@
             <!-- </aside> -->
           </section>
           <section class="container-lr">
-              <a class="illustration" href="/pages/vort_detect3.html">
-                <img class="illustration" src="/assets/illustrations/vort_detect3_small.png" alt="Vortex dynamics" style="width: 350px;">
-              </a>
+            <a class="illustration" href="/pages/vort_detect3.html">
+              <img class="illustration" src="/assets/illustrations/vort_detect3_small.png" alt="Vortex dynamics" style="width: 350px;">
+            </a>
             <section class="txt">
               Determination of the dynamic regime of a horseshoe vortex developing around an emerging obstacle using vortex detection.<br>
               The horseshoe vortex is here in a <em>Complex</em> regime, characterized by an irregular (but periodical) alternation of vortex behavior.
@@ -265,9 +460,72 @@
             </section>
           </section>
         </article>
+
+        <!--==========================-->
+        <!-- Vortex detection 4       -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              Vortex properties tracking
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
+          </section>
+          <section class="container-lr">
+            <a class="illustration" href="/pages/vort_detect4.html">
+              <img class="illustration" src="/assets/illustrations/vort_detect4_small.png" alt="Vortex properties tracking" style="width: 250px;">
+            </a>
+            <section class="txt">
+              Vortex properties (elevation, circulation and vorticity) evolution along its life cycle.<br>
+              This vortex is part of a horseshoe vortex (HSV) in a particular regime with a perdiodic behavior.<br>
+              The vortex is created at the beginning of the HSV, gains in circulation while advected downstream and ends up disappearing near the obstacle.
+            </section>
+          </section>
+        </article>
       </section>
+
+      <!--==========================-->
+      <!-- Modelisation             -->
+      <!--==========================-->
+      <section class="category-title">
+        <h1 id="simulations">Modelisation</h1>
+        <div class="categoryLine"></div>
+      </section>
+      <section class="category">
+        <!--==========================-->
+        <!-- Modelisation 1           -->
+        <!--==========================-->
+        <article class="all">
+          <section class="title">
+            <aside class="titleTrue">
+              HSV dynamics simulation
+            </aside>
+            <!-- <aside class="more">  <\!-- Bouton "More" -\-> -->
+            <!--   More -->
+            <!--   <img class="arrow" src="img/arrow.png" style="width: 8px;"> -->
+            <!-- </aside> -->
+          </section>
+          <section class="container-lr">
+            <a class="illustration" href="/pages/simu1.html">
+              <img class="illustration" src="/assets/illustrations/simu1_small.png" alt="HSV dynamics simulation" style="width: 300px;">
+            </a>
+            <section class="txt">
+              Simulation of the HSV vortices motion using a semi-empirical model.<br>
+              The model is able to reproduce some of the HSV observed dynamics and allow to identify the main mechanisms at the origin of the HSV complex behavior.
+              <!-- todo : add link to articles everywhere -->
+            </section>
+          </section>
+        </article>
+      </section>
+
+
     </article>
-    <!-- </div> -->
+    <!--==========================-->
+    <!-- Footer                   -->
+    <!--==========================-->
     <footer>
       <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/fr/88x31.png" /></a>
     </footer>

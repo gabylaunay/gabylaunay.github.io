@@ -61,24 +61,3 @@ section.txt{
     align-self: flex-start;
     padding: 2em;
 }
-
-aside.more{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    border-radius: 5px;
-    background-color: white;
-    margin-right: 10px;
-    font-family: all;
-    color: rgb(70,70,70);
-    font-size: 0.9em;
-    padding: 0px 10px 0px 10px;
-    border: 1px solid rgb(220,220,220);
-    cursor: pointer;
-}
-
-
-img.arrow{
-    padding-left: 5px;
-}

@@ -2,11 +2,15 @@ body{
     margin: 0px;
     padding: 0px;
     background-image: url('/assets/img/back.png');
+    min-height: 100%;
+    height: 100%;
 }
 
 html{
     margin: 0px;
     padding: 0px;
+    min-height: 100%;
+    height: 100%;
 }
 
 @font-face {
@@ -20,7 +24,7 @@ html{
 
 h1{
     font-size: 1.5em;
-    font-family: all;
+    font-family: nav;
     white-space: nowrap;
 }
 
@@ -35,6 +39,7 @@ img{
 
 a{
     text-decoration: none;
+    color: #2971ce;
 }
 
 a:hover{
@@ -160,7 +165,7 @@ nav.lateral{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    box-shadow: 1px 1px 15px black;
+    box-shadow: 1px 1px 15px grey;
     z-index: 10;
 }
 
@@ -188,7 +193,7 @@ nav.case-lateral:hover{
 .separator2000-horiz{
     display: inline-block;
     width: 100%;
-    border-top: 1px solid rgb(40, 40, 40);
+    border-top: 1px solid rgb(180, 180, 180);
 }
 
 footer{
@@ -226,5 +231,49 @@ section.category-title{
 div.categoryLine{
     width: 100%;
     border-top: 3px double rgb(190,190,190);
+    margin-left: 10px;
+}
+
+img.arrow{
+    padding-left: 5px;
+}
+
+img.back{
+    padding-right: 5px;
+}
+
+aside.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 10px;
+    font-family: all;
+    color: rgb(70,70,70);
+    font-size: 0.9em;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid rgb(220,220,220);
+    cursor: pointer;
+}
+
+aside.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: all;
+    color: rgb(70,70,70);
+    font-size: 0.9em;
+    border: 1px solid rgb(220,220,220);
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+a.back{
+    position: absolute;
     margin-left: 10px;
 }
