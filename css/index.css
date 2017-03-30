@@ -12,6 +12,7 @@
 article.base{
     display: flex;
     min-height: 500px;
+    min-widht: 850px;
     padding: 10px;
     margin: 0px;
     align-items: center;

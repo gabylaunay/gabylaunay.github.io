@@ -55,6 +55,7 @@ strong{
 
 nav.base{
     width: 100%;
+    min-width: 910px;
     height: 60px;
     background-image: url('/assets/img/nav.png');
     display: flex;
@@ -135,7 +136,7 @@ nav.name{
     align-items: center;
     justify-content: center;
     height: 60px;
-    width: 200px;
+    min-width: 200px;
     border-right: 1px solid rgb(30, 30, 30);
     background-color: rgba(0, 0, 0, 0.4);
     color: rgb(230,230,230);
