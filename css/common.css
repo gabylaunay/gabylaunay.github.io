@@ -93,6 +93,9 @@ article.all{
     flex-direction: column;
     box-shadow: 0px 0px 20px rgb(200,200,200);
     /* margin-top: 20px; */
+    animation-name: appear;
+    animation-timing-function: ease-out;
+    animation-duration: .4s;
 }
 
 article.all:hover{
@@ -142,37 +145,44 @@ nav.name{
     color: rgb(230,230,230);
     font-size: 1.4em;
     font-family: nav;
-    /* cursor: pointer; */
 }
 
-nav.name:hover{
-    transition: ease-out 0.2s;
-    box-shadow: 0px 2px 15px rgb(20,20,20) inset;
-}
 
 nav.empty{
     height: 60px;
     width: 200px;
 }
 
+@keyframes lateral-nav-translate {
+    from {left: -200px;}
+    to {left: 0px;}
+}
+
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 nav.lateral{
     position: fixed;
-    /* top: 50%; */
-    /* transform: translate(0, -50%); */
     width: 200px;
     height: auto;
+    top: 60px;
     background-image: url('/assets/img/squairy_light.png');
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     box-shadow: 1px 1px 15px grey;
-    z-index: 10;
+    /* animation-name: lateral-nav-translate; */
+    /* animation-timing-function: ease-out; */
+    /* animation-duration: .4s; */
 }
 
 @media only screen and (max-width: 1200px) {
     nav.lateral{
-        left: -200px;
+        opacity: 0;
+        z-index: -1;
     }
 }
 
@@ -203,6 +213,16 @@ nav.case-lateral:hover{
     border-top: 1px solid rgb(180, 180, 180);
 }
 
+article.base{
+    display: flex;
+    min-height: 500px;
+    min-width: 850px;
+    padding: 10px;
+    margin: 0px;
+    align-items: center;
+    flex-direction: column;
+}
+
 footer{
     display: flex;
     margin-top: 50px;
@@ -215,7 +235,6 @@ footer{
 
 img.illustration {
     padding: 1em;
-    opacity: 1;
 }
 
 a.illustration:hover{
@@ -233,6 +252,9 @@ section.category-title{
     font-size: 1.4em;
     padding-top: 35px;
     padding-bottom: 20px;
+    animation-name: appear;
+    animation-timing-function: ease-out;
+    animation-duration: .4s;
 }
 
 div.categoryLine{

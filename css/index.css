@@ -9,16 +9,6 @@
 /*   src: url('/assets/font/all.ttf'); */
 /* } */
 
-article.base{
-    display: flex;
-    min-height: 500px;
-    min-width: 850px;
-    padding: 10px;
-    margin: 0px;
-    align-items: center;
-    flex-direction: column;
-}
-
 section.case{
     background-color: white;
     display: flex;
