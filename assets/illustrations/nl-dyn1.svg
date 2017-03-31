@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r"
-   sodipodi:docname="attracteur_2_5p.svg"
+   sodipodi:docname="nl-dyn1.svg"
    inkscape:export-filename="attracteur_2_5p_small.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100">
@@ -1231,7 +1231,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.12374369"
-     inkscape:cx="80.903026"
+     inkscape:cx="-1438.3664"
      inkscape:cy="28.596149"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -1254,7 +1254,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1269,14 +1269,14 @@
        id="g7486"
        style="opacity:1" />
     <image
-       sodipodi:absref="/home/glaunay/dev/perso-site/assets/pics/attracteur_2_5p.png"
-       xlink:href="attracteur_2_5p.png"
-       width="443.44168"
-       height="268.55209"
-       preserveAspectRatio="none"
-       id="image7689"
+       sodipodi:absref="/home/muahah/dev/site-perso/assets/illustrations/nl-dyn1.png"
+       xlink:href="nl-dyn1.png"
+       y="-11.404114"
        x="-28.021723"
-       y="-11.404114" />
+       id="image7689"
+       preserveAspectRatio="none"
+       height="268.55209"
+       width="443.44168" />
   </g>
   <g
      inkscape:groupmode="layer"

@@ -170,6 +170,12 @@ nav.lateral{
     z-index: 10;
 }
 
+@media only screen and (max-width: 1200px) {
+    nav.lateral{
+        left: -200px;
+    }
+}
+
 nav.case-lateral{
     display: flex;
     height: 60px;
