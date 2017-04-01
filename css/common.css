@@ -5,54 +5,41 @@ body{
     min-height: 100%;
     height: 100%;
 }
-
 html{
     margin: 0px;
     padding: 0px;
     min-height: 100%;
     height: 100%;
 }
-
 @font-face {
     font-family: nav;
     src: url('/assets/font/nav.ttf');
 }
-/* @font-face { */
-/* font-family: all; */
-/* src: url('/assets/font/all.ttf'); */
-/* } */
-
 h1{
     font-size: 1.5em;
     font-family: nav;
     white-space: nowrap;
 }
-
 h3{
     font-size: 1em;
     font-family: all;
 }
-
 img{
     vertical-align: bottom;
 }
-
 a{
     text-decoration: none;
     color: #2971ce;
 }
-
 a:hover{
     background-color: rgba(0, 0, 0, 0.05);
     color: #0089cc;
 }
-
 strong{
     font-family: Arial;
     font-weight: bold;
     font-size: 1em;
 }
-
 nav.base{
     width: 100%;
     min-width: 910px;
@@ -63,12 +50,10 @@ nav.base{
     justify-content: space-between;
     box-shadow: 1px 1px 15px black;
 }
-
 .navLink{
     text-decoration: none;
     width:100%;
 }
-
 div.all{
     display: flex;
     align-items: center;
@@ -80,14 +65,12 @@ section.title{
     align-items: center;
     justify-content: space-between;
 }
-
 aside.titleTrue{
     padding: 10px 20px 10px 20px;
     font-family: all;
     color: rgb(70,70,70);
     font-size: 1.5em;
 }
-
 article.all{
     display: flex;
     flex-direction: column;
@@ -97,12 +80,10 @@ article.all{
     animation-timing-function: ease-out;
     animation-duration: .4s;
 }
-
 article.all:hover{
     transition: ease-out 0.3s;
     box-shadow: 0px 0px 20px rgb(180,180,180);
 }
-
 nav.case{
     display: flex;
     height: 60px;
@@ -119,7 +100,6 @@ nav.case:hover{
     transition: ease-in 0.1s;
     box-shadow: 1px 0px 15px rgba(40,40,40,0.5) inset;
 }
-
 nav.case-current{
     display: flex;
     height: 60px;
@@ -133,7 +113,6 @@ nav.case-current{
     padding: 0 35px 0 35px;
     box-shadow: 1px 0px 15px rgba(40,40,40,0.5) inset;
 }
-
 nav.name{
     display: flex;
     align-items: center;
@@ -146,23 +125,18 @@ nav.name{
     font-size: 1.4em;
     font-family: nav;
 }
-
-
 nav.empty{
     height: 60px;
     width: 200px;
 }
-
 @keyframes lateral-nav-translate {
     from {left: -200px;}
     to {left: 0px;}
 }
-
 @keyframes appear {
     from {opacity: 0;}
     to {opacity: 1;}
 }
-
 nav.lateral{
     position: fixed;
     width: 200px;
@@ -178,14 +152,12 @@ nav.lateral{
     /* animation-timing-function: ease-out; */
     /* animation-duration: .4s; */
 }
-
 @media only screen and (max-width: 1200px) {
     nav.lateral{
         opacity: 0;
         z-index: -1;
     }
 }
-
 nav.case-lateral{
     display: flex;
     height: 60px;
@@ -195,24 +167,20 @@ nav.case-lateral{
     color: rgb(78, 78, 78);
     cursor: pointer;
 }
-
 nav.case-lateral:hover{
     transition: ease-in 0.1s;
     box-shadow: 1px 0px 5px rgba(20,20,20,0.01) inset;
 }
-
 .separator2000{
     display: inline-block;
     height: 60px;
     border-right: 1px solid rgb(40, 40, 40);
 }
-
 .separator2000-horiz{
     display: inline-block;
     width: 100%;
     border-top: 1px solid rgb(180, 180, 180);
 }
-
 article.base{
     display: flex;
     min-height: 500px;
@@ -222,7 +190,6 @@ article.base{
     align-items: center;
     flex-direction: column;
 }
-
 footer{
     display: flex;
     margin-top: 50px;
@@ -232,15 +199,12 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
 img.illustration {
     padding: 1em;
 }
-
 a.illustration:hover{
     background-color: rgba(245,245,245,0.9);
 }
-
 section.category-title{
     width: 800px;
     height: 20px;
@@ -256,21 +220,17 @@ section.category-title{
     animation-timing-function: ease-out;
     animation-duration: .4s;
 }
-
 div.categoryLine{
     width: 100%;
     border-top: 3px double rgb(190,190,190);
     margin-left: 10px;
 }
-
 img.arrow{
     padding-left: 5px;
 }
-
 img.back{
     padding-right: 5px;
 }
-
 aside.more{
     display: flex;
     justify-content: center;
@@ -286,7 +246,6 @@ aside.more{
     border: 1px solid rgb(220,220,220);
     cursor: pointer;
 }
-
 aside.back{
     display: flex;
     justify-content: center;
@@ -301,7 +260,6 @@ aside.back{
     padding: 0px 10px 0px 10px;
     cursor: pointer;
 }
-
 a.back{
     position: absolute;
     margin-left: 10px;

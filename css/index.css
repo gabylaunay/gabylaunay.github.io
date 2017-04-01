@@ -1,14 +1,8 @@
 
-
 @font-face {
     font-family: nav;
     src: url('/assets/font/nav.ttf');
 }
-/* @font-face { */
-/*   font-family: all; */
-/*   src: url('/assets/font/all.ttf'); */
-/* } */
-
 section.case{
     background-color: white;
     display: flex;
@@ -19,7 +13,6 @@ section.case{
     max-height: 300px;
     overflow: auto;
 }
-
 section.container-lr{
     background-color: rgba(245,245,245,0.9);
     display: flex;
@@ -30,7 +23,6 @@ section.container-lr{
     width: 800px;
     overflow: auto;
 }
-
 section.container-ud{
     background-color: rgba(245,245,245,0.9);
     display: flex;
@@ -40,13 +32,9 @@ section.container-ud{
     padding: 0px;
     width: 800px;
     overflow: auto;
-
 }
-
 section.img{
 }
-
-
 section.txt{
     font-family: all;
     align-self: flex-start;
