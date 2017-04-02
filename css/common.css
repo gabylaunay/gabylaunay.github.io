@@ -276,3 +276,18 @@ a.more-left{
 a.more-right{
     margin-right: 10px;
 }
+a.more-intext{
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    font-family: all;
+    color: rgb(70,70,70);
+    font-size: 0.9em;
+    padding: 6px 9px;
+    border: 1px solid rgb(195, 191, 191);
+    cursor: pointer;
+}
+
+a.more-intext:hover{
+    background-color: rgb(245, 245, 245);
+    }
