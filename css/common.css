@@ -77,8 +77,8 @@ article.all{
     box-shadow: 0px 0px 20px rgb(200,200,200);
     /* margin-top: 20px; */
     animation-name: appear;
-    animation-timing-function: ease-out;
-    animation-duration: .4s;
+    animation-timing-function: ease-in;
+    animation-duration: .2s;
 }
 article.all:hover{
     transition: ease-out 0.3s;
@@ -148,9 +148,6 @@ nav.lateral{
     align-items: center;
     justify-content: flex-start;
     box-shadow: 1px 1px 15px grey;
-    /* animation-name: lateral-nav-translate; */
-    /* animation-timing-function: ease-out; */
-    /* animation-duration: .4s; */
 }
 @media only screen and (max-width: 1200px) {
     nav.lateral{
@@ -202,6 +199,9 @@ footer{
 img.illustration {
     padding: 1em;
 }
+img.illustration:hover{
+    filter: brightness(95%);
+}
 a.illustration:hover{
     background-color: rgba(245,245,245,0.9);
 }
@@ -217,8 +217,8 @@ section.category-title{
     padding-top: 35px;
     padding-bottom: 20px;
     animation-name: appear;
-    animation-timing-function: ease-out;
-    animation-duration: .4s;
+    animation-timing-function: ease-in;
+    animation-duration: .2s;
 }
 div.categoryLine{
     width: 100%;
