@@ -1,10 +1,12 @@
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0px;
     padding: 0px;
     background-color: rgb(237, 237, 237);
     background-image: url('/assets/img/back.png');
     min-height: 100%;
-    height: 100%;
 }
 html{
     margin: 0px;
@@ -132,10 +134,6 @@ nav.empty{
     height: 60px;
     width: 200px;
 }
-@keyframes lateral-nav-translate {
-    from {left: -200px;}
-    to {left: 0px;}
-}
 @keyframes appear {
     from {opacity: 0;}
     to {opacity: 1;}
@@ -159,7 +157,7 @@ nav.lateral{
 }
 @media only screen and (max-width: 1300px) {
     nav.lateral{
-        opacity: 0;
+        left: -300px;
         z-index: -1;
     }
 }
@@ -201,12 +199,12 @@ nav.case-lateral-top:hover{
 }
 article.base{
     display: flex;
-    min-height: 500px;
     min-width: 910px;
     padding: 10px 0px;
     margin: 0px;
     align-items: center;
     flex-direction: column;
+    flex-grow: 1;
 }
 footer{
     display: flex;
