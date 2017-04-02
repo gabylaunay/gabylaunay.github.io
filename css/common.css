@@ -153,6 +153,9 @@ nav.lateral{
     justify-content: flex-start;
     box-shadow: 1px 1px 15px grey;
     z-index: 1;
+    animation-name: appear;
+    animation-timing-function: ease-in;
+    animation-duration: .2s;
 }
 @media only screen and (max-width: 1300px) {
     nav.lateral{
