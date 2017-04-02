@@ -17,9 +17,9 @@
    id="svg8"
    inkscape:version="0.92.1 r"
    sodipodi:docname="nl-dyn1.svg"
-   inkscape:export-filename="attracteur_2_5p_small.png"
-   inkscape:export-xdpi="100"
-   inkscape:export-ydpi="100">
+   inkscape:export-filename="nl-dyn1_small.png"
+   inkscape:export-xdpi="40"
+   inkscape:export-ydpi="40">
   <defs
      id="defs2">
     <clipPath
@@ -1230,9 +1230,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.12374369"
-     inkscape:cx="-1438.3664"
-     inkscape:cy="28.596149"
+     inkscape:zoom="0.35000001"
+     inkscape:cx="807.92673"
+     inkscape:cy="461.57294"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1271,12 +1271,12 @@
     <image
        sodipodi:absref="/home/muahah/dev/site-perso/assets/illustrations/nl-dyn1.png"
        xlink:href="nl-dyn1.png"
-       y="-11.404114"
-       x="-28.021723"
-       id="image7689"
-       preserveAspectRatio="none"
+       width="443.44168"
        height="268.55209"
-       width="443.44168" />
+       preserveAspectRatio="none"
+       id="image7689"
+       x="-28.021723"
+       y="-11.404114" />
   </g>
   <g
      inkscape:groupmode="layer"

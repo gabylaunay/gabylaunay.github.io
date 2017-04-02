@@ -149,7 +149,7 @@ nav.lateral{
     justify-content: flex-start;
     box-shadow: 1px 1px 15px grey;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     nav.lateral{
         opacity: 0;
         z-index: -1;
@@ -181,8 +181,8 @@ nav.case-lateral:hover{
 article.base{
     display: flex;
     min-height: 500px;
-    min-width: 850px;
-    padding: 10px;
+    min-width: 910px;
+    padding: 10px 0px;
     margin: 0px;
     align-items: center;
     flex-direction: column;
