@@ -206,6 +206,11 @@ article.base{
     flex-direction: column;
     flex-grow: 1;
 }
+article.center{
+    width: 780px;
+    background-color: rgba(245,245,245,0.9);
+    padding: 15px;
+}
 footer{
     display: flex;
     margin-top: 50px;
@@ -223,6 +228,17 @@ img.illustration:hover{
 }
 a.illustration:hover{
     background-color: rgba(245,245,245,0.9);
+}
+section.category{
+    width: 807px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: all;
+    color: rgb(70,70,70);
+    font-size: 1.4em;
+    padding-top: 35px;
 }
 section.category-title{
     width: 800px;
@@ -266,7 +282,7 @@ aside.more{
 }
 aside.more:hover{
     background-color: rgb(245, 245, 245);
-    }
+}
 a.more-left{
     position: absolute;
     margin-left: 10px;
@@ -285,7 +301,6 @@ a.more-intext{
     border: 1px solid rgb(195, 191, 191);
     cursor: pointer;
 }
-
 a.more-intext:hover{
     background-color: rgb(245, 245, 245);
-    }
+}
