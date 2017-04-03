@@ -118,6 +118,16 @@ nav.case-current{
     padding: 0 35px 0 35px;
     box-shadow: 1px 0px 15px rgba(40,40,40,0.5) inset;
 }
+section.case{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    width: 800px;
+    max-height: 300px;
+    overflow: auto;
+}
 nav.name{
     display: flex;
     align-items: center;
@@ -303,4 +313,31 @@ a.more-intext{
 }
 a.more-intext:hover{
     background-color: rgb(245, 245, 245);
+}
+
+section.container-lr{
+    background-color: rgba(245,245,245,0.9);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 800px;
+    overflow: auto;
+}
+section.container-ud{
+    background-color: rgba(245,245,245,0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    width: 800px;
+    overflow: auto;
+}
+
+section.txt{
+    font-family: all;
+    align-self: flex-start;
+    padding: 2em;
 }
