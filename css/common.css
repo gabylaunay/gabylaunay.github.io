@@ -365,3 +365,18 @@ section.txt{
     align-self: flex-start;
     padding: 2em;
 }
+
+img.portrait{
+    width: 200px;
+    float: right;
+    align-content: space-around;
+    }
+
+div.portrait-container{
+    display: flex;
+    justify-content: space-between;
+    }
+
+div.portrait-element{
+    align-self: center;
+    }
