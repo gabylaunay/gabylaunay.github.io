@@ -1,9 +1,9 @@
-===================
-My Personal website
-===================
+================
+Personal website
+================
 
 I use this as an online interactive CV.
-Feel free to re-use the structure for your own website.
+Feel free to re-use the structure (if you want, no pressure...).
 
 
 Contact
