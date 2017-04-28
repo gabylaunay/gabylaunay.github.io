@@ -31,9 +31,21 @@
     <link rel="stylesheet" type="text/css" href="/css/common.css">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/lato" type="text/css"/>
     <link rel="icon" type="image/png" href="/assets/icons/icons64/browser-icon.png"/>
-    <script type="text/javascript"
-      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+    <!-- Mathjax config -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+      inlineMath: [ ['$', '$'] ],
+      displayMath: [ ['$$', '$$']],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      messageStyle: "none",
+      "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+      });
+      </script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
   </head>
   <body>
 
@@ -292,7 +304,7 @@
               <img class="illustration" src="/assets/illustrations/PIV2_small.png" alt="FPIV in supercritical flows" style="width: 600px;">
             </a>
             <section class="txt">
-              PIVF (Particle Image Velocimetry by Fluorescence) of a super-critical flow \\(Fr>1\\) around an emerging obstacle.<br><br>
+              PIVF (Particle Image Velocimetry by Fluorescence) of a super-critical flow $Fr>1$ around an emerging obstacle.<br><br>
               Measure is taken in the vertical plane of symmetry, upstream from the obstacle, to observe both the horseshoe vortex (bottom) and the hydraulic jump (top).
               PIVF allows to remove the scattered part of the laser emission and to make measurement in the presence of a strongly deformed and agitated free-surface.
             </section>
@@ -413,7 +425,7 @@
             </a>
             <section class="txt">
               Structure detection in a shear layer occuring in a cavity flow.<br><br>
-              Red and blue zones represent vortices advected downstream, detected using a POD filtering and the \\(\Gamma_2\\) criterion from Graftieaux et al (2001).
+              Red and blue zones represent vortices advected downstream, detected using a POD filtering and the $\Gamma_2$ criterion from Graftieaux et al (2001).
               <br><br>
               <a class="more-intext" href="/pages/publications.html#POF">
                 Article

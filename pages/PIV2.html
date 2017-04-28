@@ -13,9 +13,21 @@
     <link rel="stylesheet" type="text/css" href="/css/common.css">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/lato" type="text/css"/>
     <link rel="icon" type="image/png" href="/assets/icons/icons64/browser-icon.png"/>
-    <script type="text/javascript"
-      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+    <!-- Mathjax config -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+      inlineMath: [ ['$', '$'] ],
+      displayMath: [ ['$$', '$$']],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      messageStyle: "none",
+      "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+      });
+      </script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
   </head>
   <body>
 
@@ -86,7 +98,7 @@
           <section class="container-ud">
               <img class="illustration" src="/assets/illustrations/PIV2.png" alt="PIVF in supercritical flows" style="width: 750px;">
             <section class="txt">
-              PIVF (Particle Image Velocimetry by Fluorescence) of a super-critical flow \(Fr>1\) around an emerging obstacle.<br>
+              PIVF (Particle Image Velocimetry by Fluorescence) of a super-critical flow $Fr>1$ around an emerging obstacle.<br>
               Measure is taken in the vertical plane of symmetry, upstream from the obstacle, to observe both the horseshoe vortex (bottom) and the hydraulic jump (top).
               PIVF allows to remove the scattered part of the laser emission and to make measurement in the presence of a strongly deformed and agitated free-surface.
             </section>
