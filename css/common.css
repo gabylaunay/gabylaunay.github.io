@@ -60,7 +60,8 @@ a{
     text-decoration: none;
 }
 a:hover{
-    background-color: rgba(0, 0, 0, 0.05);
+    filter: brightness(90%);
+    /* background-color: rgba(0, 0, 0, 0.05); */
     color: #0089cc;
 }
 strong{
@@ -356,6 +357,56 @@ section.container-lr{
     padding: 0px;
     width: 800px;
     overflow: auto;
+}
+
+section.container-logos{
+    background-color: rgba(245,245,245,0.9);
+    display: flex;
+    flex-direction: row;
+    /* align-items: left; */
+    justify-content: space-around;
+    padding: 0px;
+    width: 800px;
+    overflow: auto;
+    border-top-color: rgb(190,190,190);
+    border-top-style: dotted;
+    border-top-width: .1em;
+}
+
+section.container-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section.logo-name{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+a.logo-name{
+     color: rgb(100,100,100);
+}
+
+ a.logo-name:visited{
+     color: rgb(150,150,150);
+ }
+
+section.logo-logo{
+    padding: 5px;
+}
+
+img.logo{
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+section.logo-separator{
+    height: .1em;
+    background-color: red;
 }
 section.container-ud{
     background-color: rgba(245,245,245,0.9);
