@@ -58,10 +58,14 @@ img{
 }
 a{
     text-decoration: none;
+    color: #3d417b;
 }
 a:hover{
     filter: brightness(90%);
 }
+a:visited{
+    color: #3d417b;
+    }
 strong{
     font-family: Arial;
     font-weight: bold;
