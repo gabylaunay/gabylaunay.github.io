@@ -264,6 +264,9 @@ a.footer{
 img.illustration {
     padding: 1em;
 }
+img.illustration-clickable {
+    padding: 1em;
+}
 img.illustration-clickable:hover{
     filter: brightness(95%);
 }
@@ -362,7 +365,7 @@ section.container-logos{
     flex-direction: row;
     justify-content: space-around;
     padding: 0px;
-    width: 800px;
+    width: 750px;
     overflow: auto;
     border: black;
     /* padding-bottom: 1em; */
