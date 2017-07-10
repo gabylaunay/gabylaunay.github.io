@@ -1,20 +1,20 @@
 /*
-    Personal website
-    Copyright (C) 2017  Gaby Launay, Swan Launay
+   Personal website
+   Copyright (C) 2017  Gaby Launay, Swan Launay
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*/
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 body{
     display: flex;
@@ -94,6 +94,9 @@ section.title{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+section.all{
+    z-index: 1
 }
 aside.titleTrue{
     padding: 10px 20px 10px 20px;
@@ -260,7 +263,7 @@ footer{
 }
 a.footer{
     color: rgb(124, 130, 231);
-    }
+}
 img.illustration {
     padding: 1em;
 }
@@ -389,12 +392,15 @@ section.logo-name{
 }
 
 a.logo-name{
-     color: rgb(100,100,100);
+    color: rgb(100,100,100);
 }
 
- a.logo-name:visited{
-     color: rgb(150,150,150);
- }
+a.logo-name:visited{
+    color: rgb(100,100,100);
+}
+a.logo-name:hover{
+    color: rgb(75, 75, 75);
+}
 
 section.logo-logo{
     padding: 5px;
@@ -404,7 +410,12 @@ img.logo{
     height: 1.5em;
     vertical-align: middle;
 }
-
+a.logo-logo:hover{
+    filter: grayscale(0%)
+}
+a.logo-logo{
+    filter: grayscale(100%)
+}
 section.logo-separator{
     height: .1em;
     background-color: red;
@@ -430,13 +441,17 @@ img.portrait{
     width: 200px;
     float: right;
     align-content: space-around;
-    }
+}
 
 div.portrait-container{
     display: flex;
     justify-content: space-between;
-    }
+}
 
 div.portrait-element{
     align-self: center;
-    }
+}
+p.about{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
