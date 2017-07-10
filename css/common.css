@@ -23,9 +23,17 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: rgb(237, 237, 237);
-    background-image: url('/assets/img/back.png');
     min-height: 100%;
 }
+
+div.background{
+    position: fixed;
+    background-image: url('/assets/img/back.png');
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
 html{
     margin: 0px;
     padding: 0px;
@@ -257,7 +265,7 @@ a.footer{
 img.illustration {
     padding: 1em;
 }
-img.illustration:hover{
+img.illustration-clickable:hover{
     filter: brightness(95%);
 }
 a.illustration:hover{
