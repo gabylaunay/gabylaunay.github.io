@@ -381,15 +381,17 @@ section.container-logos{
     width: 750px;
     overflow: auto;
     border: black;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    transition: padding-top ease-in-out .1s, padding-bottom ease-in-out .1s;
+    /* padding-bottom: 0px; */
+    /* padding-top: 0px; */
+    /* transition: padding-top ease-in-out .1s, padding-bottom ease-in-out .1s; */
+    filter: grayscale(100%);
 }
 
 section.container-logos:hover{
-    padding-bottom: 5px;
-    padding-top: 5px;
-    transition: padding-top ease-in-out .1s, padding-bottom ease-in-out .1s;
+    /* padding-bottom: 5px; */
+    /* padding-top: 5px; */
+    /* transition: padding-top ease-in-out .1s, padding-bottom ease-in-out .1s; */
+    filter: grayscale(0%);
     }
 
 section.container-logo{
@@ -414,7 +416,7 @@ a.logo-name:visited{
     color: rgb(100,100,100);
 }
 a.logo-name:hover{
-    color: rgb(75, 75, 75);
+    color: rgb(60, 60, 60);
 }
 
 section.logo-logo{
@@ -426,10 +428,10 @@ img.logo{
     vertical-align: middle;
 }
 a.logo-logo:hover{
-    filter: grayscale(0%)
+    filter: brihtness(85%)
 }
 a.logo-logo{
-    filter: grayscale(100%)
+    /* filter: grayscale(100%) */
 }
 section.logo-separator{
     height: .1em;
