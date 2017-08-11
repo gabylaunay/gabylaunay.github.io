@@ -472,3 +472,15 @@ p.about{
     margin-top: 2em;
     margin-bottom: 2em;
 }
+ul{
+    list-style:none;
+    margin:0 0 1em 15px;
+    padding: 0;
+}
+ul li{
+    line-height:1.3em;
+    margin: .25em 0;
+    padding: 0 0 0 15px;
+    background: url("../assets/img/bullet-list.svg") no-repeat 0 7px;
+    background-size: .5em;
+}
