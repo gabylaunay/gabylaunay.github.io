@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="901.32367mm"
+   height="369.02499mm"
+   viewBox="0 0 901.32365 369.025"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="slips.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="-146.49921"
+     inkscape:cy="375.59904"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1035"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(2373.7931,348.70358)">
+    <g
+       id="g1025">
+      <image
+         sodipodi:absref="/home/glaunay/DD-GSLIPS/181107-Visu_CB_state/filled_3a.bmp"
+         xlink:href="file:///home/glaunay/DD-GSLIPS/181107-Visu_CB_state/filled_3a.bmp"
+         width="423.33334"
+         height="317.5"
+         preserveAspectRatio="none"
+         id="image1152"
+         x="-1895.8027"
+         y="-297.17859" />
+      <text
+         id="text4916"
+         y="-314.30075"
+         x="-1751.861"
+         style="font-style:normal;font-weight:normal;font-size:48.79833984px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'cmu serif';-inkscape-font-specification:'cmu serif';stroke-width:0.26458332"
+           y="-314.30075"
+           x="-1751.861"
+           id="tspan4914"
+           sodipodi:role="line">SLIPS</tspan></text>
+    </g>
+    <g
+       id="g1030"
+       transform="translate(-1350.2456)">
+      <image
+         sodipodi:absref="/home/glaunay/DD-GSLIPS/181107-Visu_CB_state/sh_3_m.bmp"
+         xlink:href="file:///home/glaunay/DD-GSLIPS/181107-Visu_CB_state/sh_3_m.bmp"
+         y="-297.17859"
+         x="-1023.5475"
+         id="image988"
+         preserveAspectRatio="none"
+         height="317.5"
+         width="423.33334" />
+      <text
+         id="text1015"
+         y="-314.30075"
+         x="-1013.7054"
+         style="font-style:normal;font-weight:normal;font-size:48.79833984px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'cmu serif';-inkscape-font-specification:'cmu serif';stroke-width:0.26458332"
+           y="-314.30075"
+           x="-1013.7054"
+           id="tspan1013"
+           sodipodi:role="line">Super-hydrophobic</tspan></text>
+    </g>
+  </g>
+</svg>
