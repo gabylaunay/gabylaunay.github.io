@@ -16,7 +16,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="grad_surf.svg">
+   sodipodi:docname="grad_surf.svg"
+   inkscape:export-filename="/home/glaunay/dev/gabylaunay.github.io/assets/illustrations/grad_surf.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.28"
-     inkscape:cx="332.66251"
+     inkscape:cx="251.02189"
      inkscape:cy="213.12986"
      inkscape:document-units="mm"
      inkscape:current-layer="g6165"
@@ -5680,7 +5683,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:description>hash</dc:description>
       </cc:Work>
     </rdf:RDF>
