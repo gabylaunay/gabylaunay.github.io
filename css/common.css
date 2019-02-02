@@ -277,12 +277,12 @@ img.illustration {
 }
 img.illustration-clickable {
     padding: 1em;
-    transition: filter ease-in .1s;
+    /* transition: filter ease-in .1s; */
 }
-img.illustration-clickable:hover{
-    filter: brightness(95%);
-    transition: filter ease-in .1s;
-    }
+/* img.illustration-clickable:hover{ */
+/* filter: brightness(95%); */
+/* transition: filter ease-in .1s; */
+/* } */
 a.illustration:hover{
 }
 section.category{
