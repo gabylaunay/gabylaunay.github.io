@@ -381,6 +381,7 @@ section.container-logos{
     width: 750px;
     overflow: auto;
     border: black;
+    border-radius: 5px 5px 0px 0px;
     /* padding-bottom: 0px; */
     /* padding-top: 0px; */
     /* transition: padding-top ease-in-out .1s, padding-bottom ease-in-out .1s; */
