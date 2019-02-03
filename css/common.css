@@ -125,6 +125,20 @@ article.all:hover{
     transition: ease-out 0.3s;
     box-shadow: 0px 0px 20px rgb(180,180,180);
 }
+article.roundedall{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgb(200,200,200);
+    /* margin-top: 20px; */
+    animation-name: appear;
+    animation-timing-function: ease-in;
+    animation-duration: .2s;
+    border-radius: 5px 5px 0px 0px;
+}
+article.roundedall:hover{
+    transition: ease-out 0.3s;
+    box-shadow: 0px 0px 20px rgb(180,180,180);
+}
 nav.case{
     display: flex;
     height: 60px;
