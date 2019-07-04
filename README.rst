@@ -11,7 +11,7 @@ Contact
 
 `My email`_
 
-.. _My email: mailto:gaby.launay@tutanota.com
+.. _My email: mailto:gaby.launay@protonmail.com
 
 License
 =======
